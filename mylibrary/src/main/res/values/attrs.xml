@@ -11,4 +11,6 @@
         <attr name="stroke_width" format="float"></attr>
         <attr name="stroke_color" format="string"></attr>
     </declare-styleable>
+
+    <!--  UserEditText -->
 </resources>
