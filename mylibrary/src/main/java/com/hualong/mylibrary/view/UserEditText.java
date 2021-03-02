@@ -28,7 +28,8 @@ public class UserEditText extends AppCompatEditText {
 
     private void init() {
         int inputType = getInputType();
-        if (inputType == InputType.TYPE_CLASS_TEXT || inputType == InputType.TYPE_TEXT_VARIATION_PASSWORD) {
+
+        if (inputType == InputType.TYPE_CLASS_TEXT || inputType == 129) {
             this.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) {
