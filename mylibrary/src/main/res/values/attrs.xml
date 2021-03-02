@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  圆角LinearLayout  -->
+    <declare-styleable name="RadiusLayout">
+        <attr name="radius" format="integer"></attr>
+        <attr name="backcolor" format="string"></attr>
+        <attr name="radius_top_left" format="integer"></attr>
+        <attr name="radius_top_right" format="integer"></attr>
+        <attr name="radius_bottom_left" format="integer"></attr>
+        <attr name="radius_bottom_right" format="integer"></attr>
+        <attr name="stroke_width" format="float"></attr>
+        <attr name="stroke_color" format="string"></attr>
+    </declare-styleable>
+</resources>
