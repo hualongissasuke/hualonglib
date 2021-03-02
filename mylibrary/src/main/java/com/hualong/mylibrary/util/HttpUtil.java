@@ -10,7 +10,7 @@ import com.zhy.http.okhttp.callback.StringCallback;
 
 import java.util.Map;
 
-public class ApiUtil {
+public class HttpUtil {
 
     //请求
     public static void request(final Context mContext, String url, Map<String,String> map, final LoadingDialog dialog, final int returnCode){

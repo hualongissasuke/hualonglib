@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zhy_okhttputils_2_6_2_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/dialog/LoadingDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/NetworkListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ApiUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ApiUtil.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="167">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="100">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +57,16 @@
         <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/NetworkListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -97,9 +99,11 @@
         <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/dialog/LoadingDialog.java" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/OkhttpUtil.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/build.gradle" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/NetworkListener.java" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ApiUtil.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" />
       </list>
     </option>
   </component>
@@ -297,7 +301,7 @@
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.3257329" />
+      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.3257329" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Preview" weight="0.32980332" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -413,34 +417,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/NetworkListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="34" lean-forward="true" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ApiUtil.java">
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="100">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java">
+    <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="181">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
