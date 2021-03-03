@@ -1,16 +1,59 @@
 package com.hualong.mylibrary.dialog;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Context;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.widget.TextView;
 
 import com.hualong.mylibrary.R;
 
 public class LoadingDialog extends Dialog {
-    public LoadingDialog( Context context) {
+    private String message;
+    private boolean canCancel;
+    private TextView textView;
+
+    public LoadingDialog(Context context) {
+        this(context, "");
+    }
+
+    public LoadingDialog(Context context, String message) {
+        this(context, message, true);
+    }
+
+    public LoadingDialog(Context context, String message, boolean canCancel) {
         super(context, R.style.LoadProgressDialog);
+        this.message = message;
+        this.canCancel = canCancel;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+        handler.sendEmptyMessage(0);
+    }
+
+    @SuppressLint("HandlerLeak")
+    private
+    Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            if (msg.what == 0) {
+                textView.setText(message);
+            }
+        }
+    };
+
+    @SuppressLint("ResourceType")
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.hl_dialog_loading);
+        //textView = findViewById(R.id.tv_message);
+//        setCancelable(canCancel);
+        setCanceledOnTouchOutside(canCancel);
+        //textView.setText(message);
     }
 
 

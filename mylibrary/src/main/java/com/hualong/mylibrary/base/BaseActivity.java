@@ -3,9 +3,11 @@ package com.hualong.mylibrary.base;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
+import com.hualong.mylibrary.util.LogUtil;
 
 
 public class BaseActivity extends Activity {
@@ -23,7 +25,11 @@ public class BaseActivity extends Activity {
     }
 
     //跳转
-    private void navigateTo(Class cls){
+    public void navigateTo(Class cls){
         ActivityUtils.startActivity(cls);
+    }
+
+    public void logd(String msg){
+        LogUtil.d(this,msg);
     }
 }

@@ -44,7 +44,7 @@ public class HttpUtil {
                             LogUtil.d("error:",url);
                     }
                 });
-        
+
     }
 
 }
