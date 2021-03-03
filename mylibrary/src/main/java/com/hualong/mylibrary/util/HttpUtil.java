@@ -37,7 +37,7 @@ public class HttpUtil {
                         if(dialog != null){
                             dialog.dismiss();
                         }
-                        listener.success(response,returnCode);
+                        listener.onSuccess(response,returnCode);
                     }
                 });
     }
