@@ -22,6 +22,7 @@ public class BaseActivity extends Activity {
         ToastUtils.showShort(msg);
     }
 
+    //跳转
     private void navigateTo(Class cls){
         ActivityUtils.startActivity(cls);
     }

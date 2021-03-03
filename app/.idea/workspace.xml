@@ -6,11 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/NetworkListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/OkhttpListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/OkhttpListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -164,7 +160,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../meituan/hualonglib/app" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -418,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/OkhttpListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
