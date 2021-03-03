@@ -6,9 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="-338">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -294,7 +292,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.20090635" />
@@ -445,7 +442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="-338">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
