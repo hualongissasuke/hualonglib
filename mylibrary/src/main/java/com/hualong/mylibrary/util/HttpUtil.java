@@ -1,6 +1,7 @@
 package com.hualong.mylibrary.util;
 
 import android.content.Context;
+import android.text.TextUtils;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.hualong.mylibrary.dialog.LoadingDialog;
@@ -13,7 +14,7 @@ import java.util.Map;
 public class HttpUtil {
 
     //请求
-    public static void request(final Context mContext, String url, Map<String,String> map, final LoadingDialog dialog, final int returnCode){
+    public static void request(final Context mContext,final String url, Map<String,String> map, final LoadingDialog dialog, final int returnCode){
         if(dialog!=null){
             dialog.show();
         }
@@ -37,7 +38,10 @@ public class HttpUtil {
                         if(dialog != null){
                             dialog.dismiss();
                         }
-                        listener.onSuccess(response,returnCode);
+                        if(!TextUtils.isEmpty(response))
+                            listener.onSuccess(response,returnCode);
+                        else
+                            LogUtil.d("error:",url);
                     }
                 });
     }
