@@ -4,7 +4,7 @@ import android.content.Context;
 
 import com.blankj.utilcode.util.ToastUtils;
 import com.hualong.mylibrary.dialog.LoadingDialog;
-import com.hualong.mylibrary.listener.NetworkListener;
+import com.hualong.mylibrary.listener.OkhttpListener;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
 
@@ -17,7 +17,7 @@ public class HttpUtil {
         if(dialog!=null){
             dialog.show();
         }
-        final NetworkListener listener = (NetworkListener) mContext;
+        final OkhttpListener listener = (OkhttpListener) mContext;
         OkHttpUtils
                 .post()
                 .url(url)
