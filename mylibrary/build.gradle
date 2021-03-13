@@ -24,7 +24,11 @@ android {
         }
     }
 
-
+    android{
+        dataBinding{
+            enabled=true
+        }
+    }
 }
 
 
@@ -40,4 +44,15 @@ dependencies {
     implementation 'com.zhy:okhttputils:2.6.2'
     implementation("com.squareup.okhttp3:okhttp")
     implementation 'com.google.code.gson:gson:2.6.1'
+    // implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha03'
+    implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
+    implementation  'com.scwang.smart:refresh-header-classics:2.0.3'    //经典刷新头
+    implementation  'com.scwang.smart:refresh-header-falsify:2.0.3'     //虚拟刷新头
+    implementation  'com.scwang.smart:refresh-header-material:2.0.3'    //谷歌刷新头
+    implementation  'com.scwang.smart:refresh-header-two-level:2.0.3'   //二级刷新头
+    implementation  'com.scwang.smart:refresh-footer-ball:2.0.3'        //球脉冲加载
+    implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
+    implementation 'com.google.android:flexbox:1.1.0'
 }

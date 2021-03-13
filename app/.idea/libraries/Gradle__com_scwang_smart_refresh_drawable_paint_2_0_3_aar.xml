@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.scwang.smart:refresh-drawable-paint:2.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad9b9241073d88e317bf856c26d41d8f/jetified-refresh-drawable-paint-2.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ad9b9241073d88e317bf856c26d41d8f/jetified-refresh-drawable-paint-2.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-drawable-paint/2.0.3/b6ab8459bc0688d138ec61f2f762b8a6d7013011/refresh-drawable-paint-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-drawable-paint/2.0.3/9f2924c0980c5eba2d44ce678567fbd87d89428d/refresh-drawable-paint-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

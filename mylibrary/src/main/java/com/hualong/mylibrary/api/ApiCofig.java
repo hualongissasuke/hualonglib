@@ -6,7 +6,7 @@ import android.text.TextUtils;
 
 public class ApiCofig {
     public static ApiCofig instance;
-    public String BASE_URL = "Empty";
+    public String BASE_URL = "";
     public Context mContext;
 
     public static ApiCofig getInstance(){

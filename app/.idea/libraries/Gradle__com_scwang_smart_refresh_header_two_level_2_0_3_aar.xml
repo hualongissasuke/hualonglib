@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.scwang.smart:refresh-header-two-level:2.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/281db09319f4f6dbfe28d775770752ec/jetified-refresh-header-two-level-2.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/281db09319f4f6dbfe28d775770752ec/jetified-refresh-header-two-level-2.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-two-level/2.0.3/d9af54d6c3d1fc3e8d63674a19438e37fd76ddac/refresh-header-two-level-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-two-level/2.0.3/c93b3c43d0c16261162891d194d7786f865dab83/refresh-header-two-level-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

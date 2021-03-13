@@ -41,7 +41,7 @@ public class HttpUtil {
                         if(!TextUtils.isEmpty(response))
                             listener.onSuccess(response,returnCode);
                         else
-                            LogUtil.d("error:",url);
+                            Console.logw("error:",url);
                     }
                 });
 

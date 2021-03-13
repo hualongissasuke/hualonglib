@@ -3,14 +3,14 @@ package com.hualong.mylibrary.base;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
-import com.hualong.mylibrary.util.LogUtil;
+import com.hualong.mylibrary.util.BToast;
+import com.hualong.mylibrary.util.Console;
 
 
-public class BaseActivity extends Activity {
+public class BasicActivity extends Activity {
     private Context mContext;
 
     @Override
@@ -21,6 +21,10 @@ public class BaseActivity extends Activity {
 
     //吐司
     public void toast(String msg){
+        BToast.showText(this,msg,true);
+    }
+
+    public void showToast(String msg){
         ToastUtils.showShort(msg);
     }
 
@@ -30,6 +34,6 @@ public class BaseActivity extends Activity {
     }
 
     public void logd(String msg){
-        LogUtil.d(this,msg);
+        Console.logd(this,msg);
     }
 }

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.scwang.smart:refresh-header-falsify:2.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51a41491089966f4de01eb7b1dad1173/jetified-refresh-header-falsify-2.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/51a41491089966f4de01eb7b1dad1173/jetified-refresh-header-falsify-2.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-falsify/2.0.3/40a0ca8ef00f4ce3adf9902bedfb24d33d0ef1bd/refresh-header-falsify-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-falsify/2.0.3/879415f9c97da7acb746a2642b820056a8ba9eaa/refresh-header-falsify-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

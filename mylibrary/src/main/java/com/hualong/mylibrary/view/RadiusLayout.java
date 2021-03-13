@@ -51,7 +51,13 @@ public class RadiusLayout extends LinearLayout {
         int TopRightRadius = typeArray.getInt(R.styleable.RadiusLayout_radius_top_right, 0);
         int BottomLeftRadius = typeArray.getInt(R.styleable.RadiusLayout_radius_bottom_left, 0);
         int BottomRightRadius = typeArray.getInt(R.styleable.RadiusLayout_radius_bottom_right, 0);
-        int fillColor = Color.parseColor(typeArray.getString(R.styleable.RadiusLayout_backcolor));//内部填充颜色
+        int fillColor;
+        try {
+            fillColor = Color.parseColor(typeArray.getString(R.styleable.RadiusLayout_backcolor));//内部填充颜色
+        }catch (Exception e){
+            fillColor = mContext.getResources().getColor(R.color.white);//内部填充颜色
+        }
+
         float strokeWidth = typeArray.getFloat(R.styleable.RadiusLayout_stroke_width, 0);
 
 
