@@ -6,7 +6,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
-import com.bigkoo.pickerview.listener.OnTimeSelectListener;
+// import com.bigkoo.pickerview.listener.OnTimeSelectListener;
 import com.hualong.mylib.R;
 import com.hualong.mylibrary.base.BasicActivity;
 import com.hualong.mylibrary.callback.AddressCallback;
@@ -25,12 +25,12 @@ public class PickerActivity extends BasicActivity  {
     }
 
     public void showTime(View viwe){
-        TimeUtil.showTimePicker(this, Calendar.getInstance(), new OnTimeSelectListener() {
-            @Override
-            public void onTimeSelect(Date date, View v) {
-                toast(TimeUtil.date2String(date));
-            }
-        });
+        // TimeUtil.showTimePicker(this, Calendar.getInstance(), new OnTimeSelectListener() {
+        //     @Override
+        //     public void onTimeSelect(Date date, View v) {
+        //         toast(TimeUtil.date2String(date));
+        //     }
+        // });
     }
 
 
