@@ -4,44 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="presenter"
             type="com.hualong.mylib.activity.MainActivity" />
 
-
     </data>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:context=".activity.MainActivity">
 
-        <com.hualong.mylibrary.view.RefreshRecyclerView
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:resId="@{presenter.resId}"
-            />
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:resId="@{presenter.resId}"
-            android:visibility="visible"
-            android:background="@color/black"
-            />
-
-        <com.hualong.mylibrary.view.RadiusLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
             android:orientation="vertical"
-            app:textString='@{"测试text"}'
-            app:textSize="@{10}"
-            app:textColor="@{@string/white}"
-            app:backcolor="@color/black"
-            app:radius="10"
-            android:layout_margin="20dp"
-            />
+            tools:context=".activity.MainActivity">
 
-    </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@{presenter.name}"
+                />
+
+
+
+            <com.hualong.mylibrary.view.RefreshRecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:resId="@{presenter.resId}"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:overScrollMode="never"
+                android:visibility="visible"
+                app:resId="@{presenter.resId}" />
+
+            <com.hualong.mylibrary.view.RadiusLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                app:backcolor="@color/black"
+                app:radius="10"
+                app:textColor="@{@string/white}"
+                app:textSize="@{10}"
+                app:textString='@{"测试text"}' />
+
+        </LinearLayout>
+</ScrollView>
 </layout>

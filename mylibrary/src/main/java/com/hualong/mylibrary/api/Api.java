@@ -136,7 +136,7 @@ public class Api {
     public static void post(Context context,final String url, Map<String,String> params,final LoadingDialog dialog,
                      final int actionCode) {
         showLoading(dialog);
-        if(isToken)
+        if(isToken && !SPUtil.getInstance().getValue(SPUtil.TOKEN,"").equals(""))
             params.put("token",SPUtil.getInstance().getValue(SPUtil.TOKEN,""));
         final ResCallback mCallback = (ResCallback) context;
         OkHttpUtils.post()

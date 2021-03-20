@@ -6,77 +6,71 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="hualong_" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_alpha02_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_5_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_2_0_alpha03_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jcore_2_5_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jpush_3_8_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_flexbox_1_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_drawable_paint_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_footer_ball_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_footer_classics_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_header_classics_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_header_falsify_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_header_material_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_header_two_level_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smart_refresh_layout_kernel_2_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smartrefresh_SmartRefreshHeader_1_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smartrefresh_SmartRefreshLayout_1_0_3_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bind/TextBindAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/resId/LayoutId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/JPush/JPSetTagAndAlias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/adapter/RecyclerBindAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRadiusLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRecyclerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindViewHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RecyclerAdapterCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RefreshCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/BToast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/NoDoubleClickUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/SPUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RefreshRecyclerView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/toast_back.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/toast_n.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/toast_y.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/layout/layout_refresh_recyler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/layout/toast_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_contrarywind_Android_PickerView_4_1_9_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_contrarywind_wheelview_4_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/BaseActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/EventActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/LabelsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/PickerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bean/LabelsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/ripple_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/activity_event.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/item_lables_custom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/assets/city.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bean/AddressBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLablesView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLayoutAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BingEventAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/AddressCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/BindingCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/LablesCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/AddressPickerHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/KeyboarHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ColorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/KeyboardUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView_TextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/MKeyboarView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/radius5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/layout/view_keyboard.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/layout/view_labels.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/dimen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/xml/number_or_letters.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/xml/province_abbreviation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jcore_2_5_5_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__cn_jiguang_sdk_jpush_3_8_5_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smartrefresh_SmartRefreshHeader_1_0_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_scwang_smartrefresh_SmartRefreshLayout_1_0_3_aar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mylibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiCofig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiCofig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/StringCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ResCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/LogUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RadiusLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RadiusLayout.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +81,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="c22dd226" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="78bde4b1" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -97,103 +91,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1060#1061#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/SPUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/PickerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/StringUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            <state relative-caret-position="447">
+              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#get#0;class#Api#0" />
-                <element signature="docComment;method#post#0;class#Api#0" />
-                <element signature="docComment;method#commonSteps#0;class#Api#0" />
-                <element signature="method#commonSteps#0;class#Api#0" />
-                <element signature="docComment;method#post#1;class#Api#0" />
-                <element signature="docComment;method#onError#0;class#Api#0" />
-                <element signature="docComment;method#onResponse#0;class#Api#0" />
-                <element signature="docComment;method#showLoading#0;class#Api#0" />
-                <element signature="method#showLoading#0;class#Api#0" />
-                <element signature="method#dismissLoading#0;class#Api#0" />
+                <element signature="e#1164#1328#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java">
+        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/AddressPickerHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="229">
+              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,23 +118,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-footer-ball/2.0.3/fdf7498cf522bcff9e4b689014ca286a89f0da9d/refresh-footer-ball-2.0.3-sources.jar!/com/scwang/smart/refresh/footer/BallPulseFooter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_picker.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="7" selection-end-column="39" />
+            <state relative-caret-position="260">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
-                <element signature="e#1630#1631#0" expanded="true" />
-                <element signature="e#1665#1666#0" expanded="true" />
+                <element signature="e#1043#1063#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RefreshCallback.java">
+        <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="140">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -228,24 +144,45 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
         <option value="valueResourceFile" />
         <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>context</find>
-      <find>this.</find>
-      <find>method</find>
       <find>client</find>
       <find>.R</find>
       <find>mBinding.</find>
       <find>appcompat</find>
       <find>postBody</find>
       <find>token</find>
+      <find>ApiCofig.getCo</find>
+      <find>mFlexDirection</find>
+      <find>setColor</find>
+      <find>com.hualong.mylibrary.view</find>
+      <find>gd</find>
+      <find>tv.setText</find>
+      <find>onClickListener</find>
+      <find>setItemSelectColor</find>
+      <find>itemSelectBackground</find>
+      <find>strokeWidth</find>
+      <find>selectBackground</find>
+      <find>setA</find>
+      <find>name</find>
+      <find>WIDTH</find>
+      <find>onLayout</find>
+      <find>flex</find>
+      <find>list</find>
+      <find>column</find>
+      <find>initData</find>
+      <find>initData()</find>
+      <find>Console.logd</find>
+      <find>pressColor</find>
+      <find>public Rect</find>
+      <find>gson</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,65 +191,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/listener/OkhttpListener.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/StringCallback.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/layout/dialog_loading.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/progress_round.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/dialog/LoadingDialog.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/JPush/JPSetTagsAnd.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindViewHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bind/RecyclerTestBindAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/adapter/RecyclerTestBindAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/resId/LayoutId.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/adapter/RecyclerTestAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/adapter/RecyclerBindAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/RecyclerBindAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RecyclerAdapterCallback.java" />
-        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bind/TestBindAdapter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bind/BindRecyclerAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/LogUtil.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiCofig.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bind/TextBindAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/BToast.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/NoDoubleClickUtils.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/JPush/JPSetTagAndAlias.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/MyApplication.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RadiusLayout.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/MainActivity.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRadiusLayout.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRecyclerAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/adapter/RecyclerBindAdapter.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/src/main/res/layout/item_test.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/layout/layout_refresh_recyler.xml" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RefreshCallback.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RefreshRecyclerView.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/../mylibrary/build.gradle" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java" />
-        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/SPUtil.java" />
         <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiOptions.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiCofig.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/layout/view_keyboard.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/MKeyboarView.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/KeyboarHelper.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/KeyboarHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/layout/view_labels.xml" />
+        <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/BindingCallback.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/drawable/radius5.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/KeyboardUtil.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLablesView_old.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView_TextView.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLayoutAdapter.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/LablesCallback.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLablesView.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_labels.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/bean/LabelsBean.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/item_lables_custom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/LabelsActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/EventActivity.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/dimen.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/drawable/ripple_test.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_event.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ColorUtil.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BingEventAdapter.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/build.gradle" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/TimeUtil.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/AddressCallback.java" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bean/AddressBean.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/activity_picker.xml" />
+        <option value="$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/AddressPickerHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/PickerActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-330" />
-    <option name="y" value="35" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="y" value="364" />
+    <option name="width" value="683" />
+    <option name="height" value="364" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -322,80 +258,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylib" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylib" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylib" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -424,41 +287,153 @@
             <path>
               <item name="mylib" type="b2602c69:ProjectViewProjectNode" />
               <item name="hualonglib" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mylib" type="b2602c69:ProjectViewProjectNode" />
               <item name="hualonglib" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hualonglib" type="462c0819:PsiDirectoryNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hualonglib" type="462c0819:PsiDirectoryNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hualonglib" type="462c0819:PsiDirectoryNode" />
+              <item name="mylibrary" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mylib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylib" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylib" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="callback" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mylibrary" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="mylibrary" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="mylib" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mylibrary/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mylibrary/src/main" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hualong\Android\hualonglib\mylib\hualonglib\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.hualong.mylib.activity" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hualong.mylibrary.util" />
+      <recent name="com.hualong.mylibrary.bean" />
+      <recent name="com.hualong.mylibrary.callback" />
+      <recent name="com.hualong.mylibrary.helper" />
       <recent name="com.hualong.mylibrary.view" />
+      <recent name="com.hualong.mylibrary.bind" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hualong\Android\hualonglib\mylib\hualonglib\mylibrary\src\main" />
       <recent name="D:\hualong\Android\hualonglib\mylib\hualonglib\mylibrary\src\main\res\drawable" />
+      <recent name="D:\hualong\Android\hualonglib\mylib\hualonglib\mylibrary\src\main\res\xml" />
       <recent name="D:\hualong\Android\hualonglib\mylib\hualonglib\mylibrary\src\main\res\layout" />
     </key>
   </component>
@@ -554,7 +529,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.24924472" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.24924472" />
       <window_info id="Structure" order="2" sideWeight="0.5012225" side_tool="true" weight="0.32980332" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -564,11 +539,11 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="mPaaS" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Logcat" order="2" weight="0.49348533" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.5162867" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.5504886" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.3257329" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.45276874" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
@@ -578,11 +553,11 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.32930514" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.244713" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.20090635" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.24924472" />
       <window_info id="Structure" order="2" sideWeight="0.5012225" side_tool="true" weight="0.32980332" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -592,11 +567,11 @@
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="mPaaS" order="0" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Logcat" order="2" weight="0.48045602" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.6970684" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.5504886" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.3257329" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.45276874" />
       <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
@@ -606,108 +581,28 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Preview" order="5" weight="0.32930514" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.25226587" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/okhttputils/2.6.2/a23d2e96bf2ff8235f01215e3ce0ceb3cdddff32/okhttputils-2.6.2-sources.jar!/com/zhy/http/okhttp/request/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView_TextView.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/okhttputils/2.6.2/a23d2e96bf2ff8235f01215e3ce0ceb3cdddff32/okhttputils-2.6.2-sources.jar!/com/zhy/http/okhttp/request/PostFormRequest.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android/flexbox/1.1.0/14768e8eae5379f244eb26965e0c98a54c3ad8f6/flexbox-1.1.0-sources.jar!/com/google/android/flexbox/FlexboxLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/okhttputils/2.6.2/a23d2e96bf2ff8235f01215e3ce0ceb3cdddff32/okhttputils-2.6.2-sources.jar!/com/zhy/http/okhttp/builder/PostFormBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/okhttputils/2.6.2/a23d2e96bf2ff8235f01215e3ce0ceb3cdddff32/okhttputils-2.6.2-sources.jar!/com/zhy/http/okhttp/request/RequestCall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.zhy/okhttputils/2.6.2/a23d2e96bf2ff8235f01215e3ce0ceb3cdddff32/okhttputils-2.6.2-sources.jar!/com/zhy/http/okhttp/builder/GetBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/dialog/LoadingDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <caret line="1175" column="15" selection-start-line="1175" selection-start-column="15" selection-end-line="1175" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#50553#50554#0" expanded="true" />
+            <element signature="e#50591#50592#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/UserEditText.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/hualong/mylib/databinding/ActivityLabelsBindingImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="73" selection-end-line="31" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/JPush/JPSetTagAndAlias.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#244#305#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiCofig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ResCallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="209" column="13" selection-start-line="209" selection-start-column="13" selection-end-line="209" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354780">
-          <caret line="18176" column="47" selection-start-line="18176" selection-start-column="47" selection-end-line="18176" selection-end-column="47" />
-          <folding>
-            <element signature="e#745065#745066#0" expanded="true" />
-            <element signature="e#745101#745102#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="79">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
         </state>
       </provider>
     </entry>
@@ -721,241 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.30.6/554e2663bacc069e644f6bfc919170ef41d03d93/utilcodex-1.30.6-sources.jar!/com/blankj/utilcode/util/ConvertUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RadiusLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="73" column="37" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.30.6/554e2663bacc069e644f6bfc919170ef41d03d93/utilcodex-1.30.6-sources.jar!/com/blankj/utilcode/util/ObjectUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="88" column="57" selection-start-line="88" selection-start-column="57" selection-end-line="88" selection-end-column="57" />
-          <folding>
-            <element signature="e#2807#2808#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/widget/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
-          <folding>
-            <element signature="e#3826#3827#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/content/res/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1033" column="40" selection-start-line="1033" selection-start-column="24" selection-end-line="1033" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/graphics/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/widget/TextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="4832" column="43" selection-start-line="4832" selection-start-column="29" selection-end-line="4832" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/attrs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/ap_generated_sources/debug/out/com/hualong/mylib/DataBinderMapperImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRadiusLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindRecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/adapter/RecyclerBindAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/build/generated/data_binding_base_class_source_out/debug/dataBindingGenBaseClassesDebug/out/com/hualong/mylibrary/databinding/LayoutRefreshRecylerBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-layout-kernel/2.0.3/1a11ae7217753d887c0330fb49793323f3d5d407/refresh-layout-kernel-2.0.3-sources.jar!/com/scwang/smart/refresh/layout/constant/SpinnerStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/layout/layout_refresh_recyler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-header-two-level/2.0.3/c93b3c43d0c16261162891d194d7786f865dab83/refresh-header-two-level-2.0.3-sources.jar!/com/scwang/smart/refresh/header/TwoLevelHeader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-          <folding>
-            <element signature="e#2022#2023#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/RefreshRecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/FlexLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="320">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#241#242#0" expanded="true" />
@@ -964,109 +628,395 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java">
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/layout/view_labels.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scwang.smart/refresh-footer-ball/2.0.3/fdf7498cf522bcff9e4b689014ca286a89f0da9d/refresh-footer-ball-2.0.3-sources.jar!/com/scwang/smart/refresh/footer/BallPulseFooter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_test.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" selection-start-column="7" selection-end-column="39" />
-          <folding>
-            <element signature="e#1630#1631#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="20">
+          <caret line="25428" column="22" selection-start-line="25428" selection-start-column="22" selection-end-line="25428" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/RefreshCallback.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="302">
+          <caret line="43" column="49" lean-forward="true" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#get#0;class#Api#0" />
-            <element signature="docComment;method#post#0;class#Api#0" />
-            <element signature="docComment;method#commonSteps#0;class#Api#0" />
-            <element signature="method#commonSteps#0;class#Api#0" />
-            <element signature="docComment;method#post#1;class#Api#0" />
-            <element signature="docComment;method#onError#0;class#Api#0" />
-            <element signature="docComment;method#onResponse#0;class#Api#0" />
-            <element signature="docComment;method#showLoading#0;class#Api#0" />
-            <element signature="method#showLoading#0;class#Api#0" />
-            <element signature="method#dismissLoading#0;class#Api#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/SPUtil.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.30.6/554e2663bacc069e644f6bfc919170ef41d03d93/utilcodex-1.30.6-sources.jar!/com/blankj/utilcode/util/ConvertUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="39" />
+          <caret line="729" column="30" selection-start-line="729" selection-start-column="30" selection-end-line="729" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#22103#22104#0" expanded="true" />
+            <element signature="e#22152#22153#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/api/ApiOptions.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.30.6/554e2663bacc069e644f6bfc919170ef41d03d93/utilcodex-1.30.6-sources.jar!/com/blankj/utilcode/util/UtilsBridge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="61" />
+        <state relative-caret-position="216">
+          <caret line="498" column="26" lean-forward="true" selection-start-line="498" selection-start-column="26" selection-end-line="498" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#17454#17455#0" expanded="true" />
+            <element signature="e#17501#17502#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.blankj/utilcodex/1.30.6/554e2663bacc069e644f6bfc919170ef41d03d93/utilcodex-1.30.6-sources.jar!/com/blankj/utilcode/util/SizeUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="196">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLayoutAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/LablesCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="3466" column="41" selection-start-line="3466" selection-start-column="31" selection-end-line="3466" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BindLablesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/bean/LabelsBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/item_lables_custom.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/LabelsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2974#3161#0" expanded="true" />
+            <element signature="e#3160#3161#0" expanded="true" />
+            <element signature="e#3209#3359#0" expanded="true" />
+            <element signature="e#3358#3359#0" expanded="true" />
+            <element signature="e#3410#3559#0" expanded="true" />
+            <element signature="e#3558#3559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/view/LablesView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="289" column="3" selection-start-line="289" selection-start-column="3" selection-end-line="297" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4362#4363#0" expanded="true" />
+            <element signature="e#4394#4395#0" expanded="true" />
+            <element signature="e#9181#9182#0" expanded="true" />
+            <element signature="e#9225#9226#0" expanded="true" />
+            <element signature="e#11067#11068#0" expanded="true" />
+            <element signature="e#11115#11116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_labels.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="53" />
+          <folding>
+            <element signature="e#1046#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/dimen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/content/res/ColorStateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="157" column="25" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/graphics/Rect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="82" column="15" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable-v21/ripple_test.xml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-30/android/graphics/drawable/RippleDrawable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="188" column="11" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/EventActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_event.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="e#1350#1371#0" expanded="true" />
+            <element signature="e#1406#1427#0" expanded="true" />
+            <element signature="e#1647#1667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/ColorUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bind/BingEventAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initRipple#0;class#BingEventAdapter#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/drawable/ripple_test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding>
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/application/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/base/BasicActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mylibrary/build.gradle">
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/TimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="42" column="37" lean-forward="true" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="634" column="5" selection-start-line="620" selection-start-column="1" selection-end-line="634" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="38" column="51" selection-start-line="38" selection-start-column="51" selection-end-line="38" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/assets/city.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/callback/AddressCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/bean/AddressBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_picker.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#1043#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mylibrary/src/main/java/com/hualong/mylibrary/helper/AddressPickerHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/PickerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1164#1328#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.PickerActivity"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:onClick="showTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:pressColor="@{@color/color_1A6BEA}"
+            android:textColor="@color/white"
+            app:corner="@{10}"
+            android:text="时间选择" />
+
+        <Button
+            android:onClick="showAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:pressColor="@{@color/colorAccent}"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:text="地址选择" />
+
+    </LinearLayout>
+</layout>

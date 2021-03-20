@@ -7,4 +7,9 @@
         <!--Dialog图标着色-->
         <!--<item name="colorAccent">#ffffff</item>-->
     </style>
+
+<!--    <style name="RippleWhite">-->
+<!--        <item name="android:colorControlHighlight">#D8D8D8</item>-->
+<!--        <item name="android:radius">100dp</item>-->
+<!--    </style>-->
 </resources>

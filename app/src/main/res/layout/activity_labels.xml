@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="presenter"
+            type="com.hualong.mylib.activity.LabelsActivity" />
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_f2f2f2"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--             app:layoutId="@{@layout/item_lables_custom}"-->
+            <com.hualong.mylibrary.view.LablesView
+                android:id="@+id/lables_view_custom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="@dimen/dimen_10_dp"
+                android:paddingLeft="@dimen/dimen_10_dp"
+                android:paddingRight="@dimen/dimen_10_dp"
+                />
+
+<!--     app:selectBackground="@{@drawable/radius5}"    "      -->
+            <com.hualong.mylibrary.view.LablesView
+                android:id="@+id/lables_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/black"
+                app:radius="@{20}"
+                app:itemBackgroundColor="@{@color/white}"
+                app:strokeColor="@{@color/colorAccent}"
+                app:strokeWidth="@{1}"
+                app:itemWidth="@{65}"
+                app:itemHeight="@{40}"
+                app:margin="@{presenter.margin}"
+                app:textColor="@{@color/color_303030}"
+                app:selectBackgroundColor="@{@color/colorPrimaryDark}"
+                app:selectStrokeColor="@{@color/white}"
+                app:selectTextColor="@{@color/white}"
+                app:selectType="@{1}"
+                app:flex="@{0}"
+                android:visibility="visible"
+                />
+
+            <com.hualong.mylibrary.view.RadiusLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="20dp"
+                android:orientation="vertical"
+                app:backcolor="@color/black"
+                app:radius="10"
+                app:textColor="@{@string/white}"
+                app:textSize="@{10}"
+                app:textString='@{"测试text"}' />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

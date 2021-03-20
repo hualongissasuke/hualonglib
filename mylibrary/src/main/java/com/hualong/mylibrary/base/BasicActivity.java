@@ -4,13 +4,15 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
+import androidx.fragment.app.FragmentActivity;
+
 import com.blankj.utilcode.util.ActivityUtils;
 import com.blankj.utilcode.util.ToastUtils;
 import com.hualong.mylibrary.util.BToast;
 import com.hualong.mylibrary.util.Console;
 
 
-public class BasicActivity extends Activity {
+public class BasicActivity extends FragmentActivity {
     private Context mContext;
 
     @Override
@@ -33,7 +35,7 @@ public class BasicActivity extends Activity {
         ActivityUtils.startActivity(cls);
     }
 
-    public void logd(String msg){
-        Console.logd(this,msg);
+    public void logd(Object ...msg){
+        Console.logd(msg);
     }
 }

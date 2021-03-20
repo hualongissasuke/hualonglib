@@ -33,6 +33,8 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
     private Test test;
     private ApiOptions mOptions;
     private ApiOptions homeOptions;
+    public String name="ssssssss";
+
 
 
     @Override
@@ -41,6 +43,8 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
 
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mBinding.setPresenter(this);
+
+       navigateTo(PickerActivity.class);
 
         // initOptions();
 
@@ -80,9 +84,7 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
 
     }
 
-    public void navigation(View view){
-        ActivityUtils.startActivity(MainActivity.class);
-    }
+
 
 
     @Override
@@ -96,6 +98,7 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
             @Override
             public void onClick(View v) {
                 toast(String.format("点中了%1$d",position));
+                ActivityUtils.startActivity(LabelsActivity.class);
             }
         });
         // itemBinding.btn.setOnClickListener(new View.OnClickListener() {

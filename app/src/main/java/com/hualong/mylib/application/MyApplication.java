@@ -2,6 +2,7 @@ package com.hualong.mylib.application;
 
 import android.app.Application;
 
+import com.blankj.utilcode.util.Utils;
 import com.hualong.mylibrary.api.ApiCofig;
 import com.hualong.mylibrary.dialog.LoadingDialog;
 import com.hualong.mylibrary.util.SPUtil;
@@ -16,7 +17,7 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        Utils.init(this);
         SPUtil.init(this);
         ApiCofig.init(this,BASE_URL);
     }
