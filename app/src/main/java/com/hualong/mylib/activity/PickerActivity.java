@@ -11,11 +11,16 @@ import android.widget.TextView;
 import androidx.databinding.DataBindingUtil;
 
 // import com.bigkoo.pickerview.listener.OnTimeSelectListener;
+import com.bigkoo.pickerview.listener.OnTimeSelectListener;
 import com.hualong.mylib.R;
 import com.hualong.mylibrary.base.BaseDialog;
 import com.hualong.mylibrary.base.BasicActivity;
 import com.hualong.mylibrary.callback.AddressCallback;
 import com.hualong.mylibrary.helper.AddressPickerHelper;
+import com.hualong.mylibrary.util.TimeUtil;
+
+import java.util.Calendar;
+import java.util.Date;
 
 public class PickerActivity extends BasicActivity {
 
@@ -49,13 +54,21 @@ public class PickerActivity extends BasicActivity {
 
                 // baseDialog.show();
                 // AddressPickerHelper.dialog = baseDialog;
-                AddressPickerHelper.getInstance().onDialog(true)
-                        .show().setAddressCallback(new AddressCallback() {
+
+                AddressPickerHelper.getInstance().onDialog(true).showTodayTimePicker(new OnTimeSelectListener() {
                     @Override
-                    public void onResult(String province, String city, String area) {
-                        toast(String.format("%1$s-%2$s-%3$s", province, city, area));
+                    public void onTimeSelect(Date date, View v) {
+                        toast(TimeUtil.date2String(date));
                     }
                 });
+
+                // AddressPickerHelper.getInstance().onDialog(true)
+                //         .show().setAddressCallback(new AddressCallback() {
+                //     @Override
+                //     public void onResult(String province, String city, String area) {
+                //         toast(String.format("%1$s-%2$s-%3$s", province, city, area));
+                //     }
+                // });
             }
         });
     }

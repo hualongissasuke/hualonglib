@@ -10,9 +10,12 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 
 import com.bigkoo.pickerview.builder.OptionsPickerBuilder;
+import com.bigkoo.pickerview.builder.TimePickerBuilder;
 import com.bigkoo.pickerview.listener.OnDismissListener;
 import com.bigkoo.pickerview.listener.OnOptionsSelectListener;
+import com.bigkoo.pickerview.listener.OnTimeSelectListener;
 import com.bigkoo.pickerview.view.OptionsPickerView;
+import com.bigkoo.pickerview.view.TimePickerView;
 import com.blankj.utilcode.util.ActivityUtils;
 import com.google.gson.reflect.TypeToken;
 import com.hualong.mylibrary.MoptionsPickerBuilder;
@@ -21,9 +24,12 @@ import com.hualong.mylibrary.bean.AddressBean;
 import com.hualong.mylibrary.callback.AddressCallback;
 import com.hualong.mylibrary.util.Console;
 import com.hualong.mylibrary.util.JsonUtil;
+import com.hualong.mylibrary.util.TimeUtil;
 import com.hualong.mylibrary.view.MOptionsPickerView;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -190,14 +196,34 @@ public class AddressPickerHelper {
                 .setOutSideCancelable(true);
     }
 
+    public void showTodayTimePicker(OnTimeSelectListener onTimeSelectListener){
+        TimePickerBuilder timePickerBuilder = new TimePickerBuilder(mContext,onTimeSelectListener).setRangDate(null, Calendar.getInstance());
+        if(dialog != null)
+            timePickerBuilder.setDecorView((ViewGroup) dialog.getWindow().getDecorView());
+        TimePickerView timePickerView = timePickerBuilder.build();
+        timePickerView.show();
+        timePickerView.setOnDismissListener(new OnDismissListener() {
+            @Override
+            public void onDismiss(Object o) {
+                if (dialog != null) {
+                    if (dialog.isShowing())
+                        dialog.dismiss();
+                    dialog = null;
+                }
+            }
+        });
+
+    }
+
     /**
-     * 弹框展示
+     * 地址选择器展示
      *
      * @return
      */
     private void showPickerView() {
 
         try {
+            //设置在哪个界面的前面
             if(dialog != null)
                 optionsPickerBuilder.setDecorView((ViewGroup) dialog.getWindow().getDecorView());
             else
