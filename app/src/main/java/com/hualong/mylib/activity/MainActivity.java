@@ -20,6 +20,7 @@ import com.hualong.mylibrary.adapter.RecyclerBindAdapter;
 import com.hualong.mylibrary.callback.RecyclerAdapterCallback;
 import com.hualong.mylibrary.callback.RefreshCallback;
 import com.hualong.mylibrary.helper.AddressPickerHelper;
+import com.hualong.mylibrary.helper.BottomNavigationViewHelper;
 import com.hualong.mylibrary.util.Console;
 import com.hualong.mylibrary.util.SPUtil;
 
@@ -45,7 +46,7 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mBinding.setPresenter(this);
 
-       // navigateTo(PickerActivity.class);
+       navigateTo(BottomNavigateActivity.class);
 
         // initOptions();
 

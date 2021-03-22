@@ -12,6 +12,7 @@ import android.view.WindowManager;
 import com.bigkoo.pickerview.builder.OptionsPickerBuilder;
 import com.bigkoo.pickerview.builder.TimePickerBuilder;
 import com.bigkoo.pickerview.listener.OnDismissListener;
+import com.bigkoo.pickerview.listener.OnOptionsSelectChangeListener;
 import com.bigkoo.pickerview.listener.OnOptionsSelectListener;
 import com.bigkoo.pickerview.listener.OnTimeSelectListener;
 import com.bigkoo.pickerview.view.OptionsPickerView;
@@ -153,6 +154,7 @@ public class AddressPickerHelper {
     public AddressPickerHelper onDialog(boolean flag) {
         if (!flag) return instance;
         dialog = new BaseDialog(mContext);
+        dialog.setContentView(new View(mContext),new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
         dialog.getWindow().setGravity(Gravity.BOTTOM);
         dialog.show();
         return instance;
@@ -193,7 +195,7 @@ public class AddressPickerHelper {
                 .setTextColorCenter(Color.BLACK) //设置选中项文字颜色
                 .setContentTextSize(18)
                 .isDialog(false)
-                .setOutSideCancelable(true);
+                .setOutSideCancelable(false);
     }
 
     public void showTodayTimePicker(OnTimeSelectListener onTimeSelectListener){
@@ -202,14 +204,11 @@ public class AddressPickerHelper {
             timePickerBuilder.setDecorView((ViewGroup) dialog.getWindow().getDecorView());
         TimePickerView timePickerView = timePickerBuilder.build();
         timePickerView.show();
+
         timePickerView.setOnDismissListener(new OnDismissListener() {
             @Override
             public void onDismiss(Object o) {
-                if (dialog != null) {
-                    if (dialog.isShowing())
-                        dialog.dismiss();
-                    dialog = null;
-                }
+                dialogSetEmpty();
             }
         });
 
@@ -237,6 +236,8 @@ public class AddressPickerHelper {
             return;
         }
 
+
+
         pvOptions = optionsPickerBuilder.build();
 
         pvOptions.setPicker(options1Items, options2Items, options3Items);//三级选择器
@@ -244,13 +245,18 @@ public class AddressPickerHelper {
         pvOptions.setOnDismissListener(new OnDismissListener() {
             @Override
             public void onDismiss(Object o) {
-                if (dialog != null) {
-                    if (dialog.isShowing())
-                        dialog.dismiss();
-                    dialog = null;
-                }
+                dialogSetEmpty();
             }
         });
+
+    }
+
+    private void dialogSetEmpty(){
+        if (dialog != null) {
+            if (dialog.isShowing())
+                dialog.dismiss();
+            dialog = null;
+        }
     }
 
 

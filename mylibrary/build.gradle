@@ -44,7 +44,6 @@ dependencies {
     implementation 'com.zhy:okhttputils:2.6.2'
     implementation("com.squareup.okhttp3:okhttp")
     implementation 'com.google.code.gson:gson:2.6.1'
-    // implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha03'
     implementation  'com.scwang.smart:refresh-layout-kernel:2.0.3'      //核心必须依赖
@@ -56,5 +55,10 @@ dependencies {
     implementation  'com.scwang.smart:refresh-footer-classics:2.0.3'    //经典加载
     api 'com.google.android:flexbox:1.1.0'
 
-    api 'com.contrarywind:Android-PickerView:4.1.9'
+    implementation 'com.contrarywind:Android-PickerView:4.1.9'
+    api 'com.google.android.material:material:1.2.1'
+    api 'androidx.navigation:navigation-fragment:2.2.2'
+    api 'androidx.navigation:navigation-ui:2.2.2'
+    // 支持库
+
 }

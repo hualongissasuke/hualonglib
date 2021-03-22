@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.BottomNavigateActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".activity.NavigateActivity">
+
+
+<!--            app:defaultNavHost="true" 表示使用默认的导航host,自动覆盖Activity的back按
+钮,不用再覆写[AppCompatActivity.onSupportNavigateUp()]
+app:navGraph="@navigation/main_nav_graph"指向你的nav_graph文件
+-->
+            <fragment
+                android:id="@+id/nav_host_fragment"
+                android:name="androidx.navigation.fragment.NavHostFragment"
+                app:defaultNavHost="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/bottomNavigationView"
+                android:background="@color/white"
+                app:navGraph="@navigation/main_navigation"
+                />
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/menu_bottom_navigate" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

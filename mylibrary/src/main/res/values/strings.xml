@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">My Library</string>
+    <string name="home">首页</string>
+    <string name="app">集合</string>
+    <string name="shop">商店</string>
+    <string name="news">消息</string>
+    <string name="my">我的</string>
     <string name="black">#000000</string>
     <string name="white">#ffffff</string>
 </resources>
