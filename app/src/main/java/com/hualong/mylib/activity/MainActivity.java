@@ -19,6 +19,7 @@ import com.hualong.mylibrary.bind.BindViewHolder;
 import com.hualong.mylibrary.adapter.RecyclerBindAdapter;
 import com.hualong.mylibrary.callback.RecyclerAdapterCallback;
 import com.hualong.mylibrary.callback.RefreshCallback;
+import com.hualong.mylibrary.helper.AddressPickerHelper;
 import com.hualong.mylibrary.util.Console;
 import com.hualong.mylibrary.util.SPUtil;
 
@@ -44,9 +45,11 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mBinding.setPresenter(this);
 
-       navigateTo(PickerActivity.class);
+       // navigateTo(PickerActivity.class);
 
         // initOptions();
+
+        // AddressPickerHelper.show();
 
     }
 
@@ -97,8 +100,10 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         itemBinding.rl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toast(String.format("点中了%1$d",position));
-                ActivityUtils.startActivity(LabelsActivity.class);
+                if(position %  2 == 0)
+                    ActivityUtils.startActivity(PickerActivity.class);
+                else
+                    AddressPickerHelper.getInstance().show();
             }
         });
         // itemBinding.btn.setOnClickListener(new View.OnClickListener() {
