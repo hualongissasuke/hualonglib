@@ -17,11 +17,13 @@ import com.hualong.mylib.databinding.ActivityBottomNavigateBinding;
 
 public class BottomNavigateActivity extends AppCompatActivity {
     private ActivityBottomNavigateBinding mBinding;
+    private NavController navController;
 
     @SuppressLint("ResourceType")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.getSupportActionBar().hide();//去除标题栏
         mBinding =  DataBindingUtil.setContentView(this,R.layout.activity_bottom_navigate);
         mBinding.bottomNavigationView.setItemIconTintList(null);
 
@@ -29,10 +31,18 @@ public class BottomNavigateActivity extends AppCompatActivity {
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.home, R.id.app, R.id.shop, R.id.news, R.id.my)
                 .build();
-        NavController navController = Navigation.findNavController(this,R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
-        NavigationUI.setupWithNavController(mBinding.bottomNavigationView,navController);
+        // navController = Navigation.findNavController(this,R.id.nav_host_fragment);
+        // NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
+        // NavigationUI.setupWithNavController(mBinding.bottomNavigationView,navController);
+
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
+        NavigationUI.setupWithNavController(mBinding.bottomNavigationView, navController);
     }
 
+    @Override
+    public boolean onSupportNavigateUp() {
 
+        return  navController.navigateUp();
+    }
 }

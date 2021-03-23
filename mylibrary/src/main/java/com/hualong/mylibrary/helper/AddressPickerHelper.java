@@ -23,6 +23,7 @@ import com.hualong.mylibrary.MoptionsPickerBuilder;
 import com.hualong.mylibrary.base.BaseDialog;
 import com.hualong.mylibrary.bean.AddressBean;
 import com.hualong.mylibrary.callback.AddressCallback;
+import com.hualong.mylibrary.callback.TimePickerCallback;
 import com.hualong.mylibrary.util.Console;
 import com.hualong.mylibrary.util.JsonUtil;
 import com.hualong.mylibrary.util.TimeUtil;
@@ -198,8 +199,13 @@ public class AddressPickerHelper {
                 .setOutSideCancelable(false);
     }
 
-    public void showTodayTimePicker(OnTimeSelectListener onTimeSelectListener){
-        TimePickerBuilder timePickerBuilder = new TimePickerBuilder(mContext,onTimeSelectListener).setRangDate(null, Calendar.getInstance());
+    public void showTodayTimePicker(final TimePickerCallback timePickerCallback){
+        TimePickerBuilder timePickerBuilder = new TimePickerBuilder(mContext, new OnTimeSelectListener() {
+            @Override
+            public void onTimeSelect(Date date, View v) {
+                timePickerCallback.onTimeSelect(date,v);
+            }
+        }).setRangDate(null, Calendar.getInstance());
         if(dialog != null)
             timePickerBuilder.setDecorView((ViewGroup) dialog.getWindow().getDecorView());
         TimePickerView timePickerView = timePickerBuilder.build();

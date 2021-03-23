@@ -16,9 +16,11 @@ import com.hualong.mylib.R;
 import com.hualong.mylibrary.base.BaseDialog;
 import com.hualong.mylibrary.base.BasicActivity;
 import com.hualong.mylibrary.callback.AddressCallback;
+import com.hualong.mylibrary.callback.TimePickerCallback;
 import com.hualong.mylibrary.helper.AddressPickerHelper;
 import com.hualong.mylibrary.util.TimeUtil;
 
+import java.sql.Time;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -55,9 +57,9 @@ public class PickerActivity extends BasicActivity {
                 // baseDialog.show();
                 // AddressPickerHelper.dialog = baseDialog;
 
-                AddressPickerHelper.getInstance().onDialog(true).showTodayTimePicker(new OnTimeSelectListener() {
+                AddressPickerHelper.getInstance().onDialog(true).showTodayTimePicker(new TimePickerCallback() {
                     @Override
-                    public void onTimeSelect(Date date, View v) {
+                    public void onTimeSelect(Date date, View view) {
                         toast(TimeUtil.date2String(date));
                     }
                 });
