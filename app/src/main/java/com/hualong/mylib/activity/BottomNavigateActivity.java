@@ -12,12 +12,13 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.hualong.mylib.R;
 import com.hualong.mylib.databinding.ActivityBottomNavigateBinding;
 
 public class BottomNavigateActivity extends AppCompatActivity {
     private ActivityBottomNavigateBinding mBinding;
-    private NavController navController;
+
 
     @SuppressLint("ResourceType")
     @Override
@@ -29,20 +30,14 @@ public class BottomNavigateActivity extends AppCompatActivity {
 
         //实现页面的切换
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.home, R.id.app, R.id.shop, R.id.news, R.id.my)
+                R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home)
                 .build();
-        // navController = Navigation.findNavController(this,R.id.nav_host_fragment);
-        // NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
-        // NavigationUI.setupWithNavController(mBinding.bottomNavigationView,navController);
+        NavController navController = Navigation.findNavController(this,R.id.nav_host_fragment);
+        NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
+        NavigationUI.setupWithNavController(mBinding.bottomNavigationView,navController);
 
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-        NavigationUI.setupWithNavController(mBinding.bottomNavigationView, navController);
+
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
 
-        return  navController.navigateUp();
-    }
 }

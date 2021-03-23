@@ -4,31 +4,31 @@
     >
 
     <item
-        android:id="@+id/menu_home"
+        android:id="@+id/nav_home"
         android:title="@string/home"
         android:icon="@drawable/select_bottom_navigate_item_home"
         />
 
     <item
-        android:id="@+id/menu_app"
+        android:id="@+id/nav_app"
         android:title="@string/app"
         android:icon="@drawable/select_bottom_navigate_item_app"
         />
 
     <item
-        android:id="@+id/menu_shop"
+        android:id="@+id/nav_shop"
         android:title="@string/shop"
         android:icon="@drawable/select_bottom_navigate_item_shop"
         />
 
     <item
-        android:id="@+id/menu_news"
+        android:id="@+id/nav_news"
         android:title="@string/news"
         android:icon="@drawable/select_bottom_navigate_item_news"
         />
 
     <item
-        android:id="@+id/menu_my"
+        android:id="@+id/nav_my"
         android:title="@string/my"
         android:icon="@drawable/select_bottom_navigate_item_my"
         />

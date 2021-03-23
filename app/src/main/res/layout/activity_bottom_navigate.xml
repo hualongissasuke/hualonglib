@@ -7,10 +7,7 @@
 
     </data>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".activity.BottomNavigateActivity">
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -45,5 +42,4 @@ app:navGraph="@navigation/main_nav_graph"指向你的nav_graph文件
 
         </RelativeLayout>
 
-    </RelativeLayout>
 </layout>

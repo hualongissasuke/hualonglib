@@ -46,7 +46,7 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mBinding.setPresenter(this);
 
-       navigateTo(PickerActivity.class);
+       navigateTo(BottomNavigateActivity.class);
 
         // initOptions();
 

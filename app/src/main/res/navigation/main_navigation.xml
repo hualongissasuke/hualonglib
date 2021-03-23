@@ -3,34 +3,34 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/home"
+    app:startDestination="@+id/nav_home"
    >
 
     <fragment
-        android:id="@+id/home"
+        android:id="@+id/nav_home"
         android:name="com.hualong.mylib.fragment.HomeFragment"
         android:label="@string/home"
         tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/app"
+        android:id="@+id/nav_app"
         android:name="com.hualong.mylib.fragment.AppFragment"
         android:label="@string/app"
         tools:layout="@layout/fragment_app" />
 
     <fragment
-        android:id="@+id/shop"
+        android:id="@+id/nav_shop"
         android:name="com.hualong.mylib.fragment.ShopFragment"
         android:label="@string/shop"
         tools:layout="@layout/fragment_shop" />
 
     <fragment
-        android:id="@+id/news"
+        android:id="@+id/nav_news"
         android:name="com.hualong.mylib.fragment.NewsFragment"
         android:label="@string/news"
         tools:layout="@layout/fragment_news" />
 
     <fragment
-        android:id="@+id/my"
+        android:id="@+id/nav_my"
         android:name="com.hualong.mylib.fragment.MyFragment"
         android:label="@string/my"
         tools:layout="@layout/fragment_my" />
