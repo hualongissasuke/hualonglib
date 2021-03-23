@@ -26,7 +26,8 @@ public class BottomNavigateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.getSupportActionBar().hide();//去除标题栏
         mBinding =  DataBindingUtil.setContentView(this,R.layout.activity_bottom_navigate);
-        mBinding.bottomNavigationView.setItemIconTintList(null);
+        mBinding.bottomNavigationView.setItemIconTintList(null);//还原图标色彩
+
 
         //实现页面的切换
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
