@@ -10,9 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/BottomNavigateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hualong/mylib/activity/BottomNavigateActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="3543a1e3-a186-4e66-b52f-576308e0f628" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-330" />
     <option name="y" value="35" />
     <option name="width" value="1382" />
@@ -395,7 +393,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4987775" visible="true" weight="0.21374622" />
