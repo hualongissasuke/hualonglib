@@ -13,10 +13,16 @@ public class Console {
 
     public static final String LOG_NAME = "hualong_";
     private static final String LOG_DIVIDE = " ！ ";
+    private static final String LOG_VERBOSE = LOG_NAME + "verbose";
     private static final String LOG_DEBUG = LOG_NAME + "debug";
     private static final String LOG_INFO = LOG_NAME + "info";
     private static final String LOG_WARN = LOG_NAME + "warn";
     private static final String LOG_ERROR = LOG_NAME + "error";
+
+    //网络
+    public static void logv(Object... objects) {
+        Log.v(LOG_VERBOSE, log(objects));
+    }
 
     //调试
     public static void logd(Object... objects) {
@@ -28,7 +34,7 @@ public class Console {
         Log.i(LOG_INFO, log(objects));
     }
 
-    //网络
+    //警告
     public static void logw(Object... objects) {
         Log.w(LOG_WARN, log(objects));
     }

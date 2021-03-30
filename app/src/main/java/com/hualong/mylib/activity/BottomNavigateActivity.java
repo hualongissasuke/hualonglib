@@ -24,20 +24,18 @@ public class BottomNavigateActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.getSupportActionBar().hide();//去除标题栏
+        // this.getSupportActionBar().hide();//去除标题栏
         mBinding =  DataBindingUtil.setContentView(this,R.layout.activity_bottom_navigate);
         mBinding.bottomNavigationView.setItemIconTintList(null);//还原图标色彩!!
 
 
         //实现页面的切换
-        AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home)
-                .build();
+        // AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
+        //         R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home, R.id.nav_home)
+        //         .build();
         NavController navController = Navigation.findNavController(this,R.id.nav_host_fragment);
-        NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
+        // NavigationUI.setupActionBarWithNavController(this,navController,appBarConfiguration);
         NavigationUI.setupWithNavController(mBinding.bottomNavigationView,navController);
-
-
     }
 
 

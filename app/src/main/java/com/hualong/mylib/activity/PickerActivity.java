@@ -24,6 +24,9 @@ import java.sql.Time;
 import java.util.Calendar;
 import java.util.Date;
 
+/**
+ * 时间，地址选择框
+ */
 public class PickerActivity extends BasicActivity {
 
     @Override

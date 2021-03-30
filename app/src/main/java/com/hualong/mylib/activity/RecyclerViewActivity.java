@@ -1,12 +1,13 @@
 package com.hualong.mylib.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 import android.os.Bundle;
 import android.view.View;
 
 import com.blankj.utilcode.util.ActivityUtils;
+import com.blankj.utilcode.util.PermissionUtils;
 import com.hualong.mylib.R;
 import com.hualong.mylib.application.MyApplication;
 import com.hualong.mylib.databinding.ActivityMainBinding;
@@ -20,16 +21,17 @@ import com.hualong.mylibrary.adapter.RecyclerBindAdapter;
 import com.hualong.mylibrary.callback.RecyclerAdapterCallback;
 import com.hualong.mylibrary.callback.RefreshCallback;
 import com.hualong.mylibrary.helper.AddressPickerHelper;
-import com.hualong.mylibrary.helper.BottomNavigationViewHelper;
+import com.hualong.mylibrary.helper.MapHelper;
 import com.hualong.mylibrary.util.Console;
-import com.hualong.mylibrary.util.SPUtil;
+import com.hualong.mylibrary.util.SPHelper;
 
+import java.security.Permission;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MainActivity extends BasicActivity implements ResCallback, RecyclerAdapterCallback, RefreshCallback {
+public class RecyclerViewActivity extends BasicActivity implements ResCallback, RecyclerAdapterCallback, RefreshCallback {
     private ActivityMainBinding mBinding;
     public int resId = R.layout.item_test;
     private Test test;
@@ -46,7 +48,10 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         mBinding = DataBindingUtil.setContentView(this,R.layout.activity_main);
         mBinding.setPresenter(this);
 
-       navigateTo(BottomNavigateActivity.class);
+        // List<String> strings = PermissionUtils.getPermissions();
+        // Console.logd(strings);
+        // PermissionUtils.permission("android.permission.WRITE_EXTERNAL_STORAGE");
+       // navigateTo(null);
 
         // initOptions();
 
@@ -54,16 +59,30 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
 
     }
 
+    @Override
+    public void navigateTo(Class cls) {
+        super.navigateTo(AppActivity.class);
+    }
+
     private void initOptions() {
-        SPUtil.getInstance().setValue(SPUtil.TOKEN,MyApplication.token);
-        SPUtil.getInstance().setValue(SPUtil.LOGIN_ID,MyApplication.login);
+        SPHelper.getInstance().setValue(SPHelper.TOKEN,MyApplication.token);
+        SPHelper.getInstance().setValue(SPHelper.LOGIN_ID,MyApplication.login);
 
         mOptions = new ApiOptions(this);
+
         Map<String,String> map = new HashMap<>();
         map.put("materialType", "3");
         map.put("size", "120*150");
         map.put("storehouseId", "2");
         map.put("sum", String.valueOf(1));
+
+        mOptions.data = MapHelper.getInstance()
+                .put("size","120*159")
+                .put("sum",1)
+                .put("materialType",3)
+                .put("storehouseId",2)
+                .build();
+
         mOptions.setOptions(ApiOptions.urlWithToken(MyApplication.add),map,
                 null,1001);
 
@@ -73,7 +92,6 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         homeParams.put("storehouseId","");
         homeOptions = new ApiOptions(this,MyApplication.home,homeParams,null,1002);
 
-        Api.isToken = false;
         Api.create(mOptions).postBody();
         // Api.create(homeOptions).post();
     }
@@ -92,17 +110,17 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
 
 
     @Override
-    public void onBindViewHolder(BindViewHolder holder, final int position, Object obj) {
-        ItemTestBinding itemBinding = (ItemTestBinding) holder.getBinding();
-        Test test = (Test) obj;
+    public void onBindViewHolder(ViewDataBinding recyclerItemBinding,final int position, Object item) {
+        ItemTestBinding itemBinding = (ItemTestBinding) recyclerItemBinding;
+        Test test = (Test) item;
         itemBinding.tvName.setText(String.format("%1$s%2$d",test.name,position));
         // itemBinding.etContent.setClickable(false);
         itemBinding.btn.setClickable(false);
         itemBinding.rl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(position %  2 == 0)
-                    ActivityUtils.startActivity(PickerActivity.class);
+                if(position %  2 == 0 || true)
+                    navigateTo(null);
                 else
                     AddressPickerHelper.getInstance().show();
             }
@@ -114,6 +132,8 @@ public class MainActivity extends BasicActivity implements ResCallback, Recycler
         //     }
         // });
     }
+
+
 
     @Override
     public void getAdapter(RecyclerBindAdapter adapter) {

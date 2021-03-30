@@ -15,11 +15,17 @@ import com.hualong.mylibrary.util.Console;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecyclerBindAdapter extends RecyclerView.Adapter<BindViewHolder> {
+/**
+ * RecyclerView适配器
+ * activity,item的布局文件都得binding layout,activity 还得 DataBindingUtil.setContentView
+ * item的根布局高度不能是match_parent
+ * @param <T>
+ */
+public class RecyclerBindAdapter<T extends Object> extends RecyclerView.Adapter<BindViewHolder> {
     private Context mContext;
     private int resId;
     private RecyclerAdapterCallback callback;
-    private List<Object> datas;
+    private List<T> datas;
 
 
 
@@ -35,14 +41,14 @@ public class RecyclerBindAdapter extends RecyclerView.Adapter<BindViewHolder> {
     }
 
     //增加数据
-    public void addList(List<Object> newData) {
+    public void addList(List<T> newData) {
         int position = datas.size();
         datas.addAll(position, newData);
         notifyItemInserted(position);
     }
 
     //设置数据
-    public void setDatas(List<Object> datas) {
+    public void setDatas(List<T> datas) {
         this.datas = datas;
         notifyDataSetChanged();
     }
@@ -56,7 +62,7 @@ public class RecyclerBindAdapter extends RecyclerView.Adapter<BindViewHolder> {
     @Override
     public void onBindViewHolder(BindViewHolder holder, int position) {
         if (!ObjectUtils.isEmpty(datas))
-            callback.onBindViewHolder(holder, position, datas.get(position));
+            callback.onBindViewHolder(holder.getBinding(), position, datas.get(position));
         else
             Console.loge(mContext,this.getClass().getName(),"onBindViewHolder","datas = null");
     }

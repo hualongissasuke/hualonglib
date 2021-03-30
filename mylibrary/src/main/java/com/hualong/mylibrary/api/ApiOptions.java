@@ -3,7 +3,7 @@ package com.hualong.mylibrary.api;
 import android.content.Context;
 
 import com.hualong.mylibrary.dialog.LoadingDialog;
-import com.hualong.mylibrary.util.SPUtil;
+import com.hualong.mylibrary.util.SPHelper;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -39,8 +39,8 @@ public class ApiOptions {
 
     public static String urlWithToken(String url){
         return String.format("%1$s?loginId=%2$s&token=%3$s",url,
-                SPUtil.getInstance().getValue(SPUtil.LOGIN_ID,""),
-                SPUtil.getInstance().getValue(SPUtil.TOKEN,""));
+                SPHelper.getInstance().getValue(SPHelper.LOGIN_ID,""),
+                SPHelper.getInstance().getValue(SPHelper.TOKEN,""));
     }
 
     public void get(){

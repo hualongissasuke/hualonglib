@@ -12,6 +12,7 @@ import com.hualong.mylib.R;
 import com.hualong.mylib.bean.LabelsBean;
 import com.hualong.mylib.databinding.ActivityLabelsBinding;
 import com.hualong.mylib.databinding.ItemLablesCustomBinding;
+import com.hualong.mylibrary.bind.BindViewHolder;
 import com.hualong.mylibrary.callback.LablesCallback;
 import com.hualong.mylibrary.util.Console;
 import com.hualong.mylibrary.view.LablesView;
@@ -36,6 +37,18 @@ public class LabelsActivity extends BaseActivity implements LablesCallback<ItemL
 
         initLabels();
 
+
+    }
+
+
+
+    @Override
+    protected void requestSuccess(String res, int actionCode) {
+
+    }
+
+    @Override
+    protected void requestFail(String error, int actionCode) {
 
     }
 
@@ -71,7 +84,7 @@ public class LabelsActivity extends BaseActivity implements LablesCallback<ItemL
     }
 
     @Override
-    public void initView(TextView tv, Object obj, int position) {
+    public void initView(TextView tv, LabelsBean obj, int position) {
         LabelsBean bean = (LabelsBean) obj;
         tv.setText(bean.name);
     }

@@ -1,11 +1,19 @@
 <resources>
 
+    <!--  解决：Button英文全部大写问题  -->
+    <style name="myTextAppearanceButton" parent="TextAppearance.AppCompat.Widget.Button">
+        <item name="textAllCaps">false</item>
+    </style>
+
+
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimaryDark">@color/color_2B5BF8</item>
         <item name="colorAccent">@color/color_2B5BF8</item>
         <item name="colorPrimary">@color/color_2B5BF8</item>
+        <!--  解决：Button英文全部大写问题  -->
+        <item name="android:textAppearanceButton">@style/myTextAppearanceButton</item>
     </style>
 
 </resources>

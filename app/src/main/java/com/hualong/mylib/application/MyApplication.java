@@ -4,11 +4,10 @@ import android.app.Application;
 
 import com.blankj.utilcode.util.Utils;
 import com.hualong.mylibrary.api.ApiCofig;
-import com.hualong.mylibrary.dialog.LoadingDialog;
-import com.hualong.mylibrary.util.SPUtil;
+import com.hualong.mylibrary.util.SPHelper;
 
 public class MyApplication extends Application {
-    public static String BASE_URL = "http://52.130.72.242/hxwms-web/";
+    public static String BASE_URL = "http://wms.gdhxgf.com/hxwms-web/";
     public static String home ="wStockIn/toDealtWith";
     public static String add = "wPallet/add";
     public static String login = "999";
@@ -18,7 +17,7 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         Utils.init(this);
-        SPUtil.init(this);
+        SPHelper.init(this);
         ApiCofig.init(this,BASE_URL);
     }
 }

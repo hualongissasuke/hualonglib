@@ -7,7 +7,7 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 
 
-public class SPUtil {
+public class SPHelper {
 	private Context context;
 	private SharedPreferences sp = null;
 	private Editor edit = null;
@@ -22,7 +22,7 @@ public class SPUtil {
 	 *
 	 * @param context
 	 */
-	public SPUtil(Context context) {
+	public SPHelper(Context context) {
 		this(context, PreferenceManager.getDefaultSharedPreferences(context));
 	}
 
@@ -32,7 +32,7 @@ public class SPUtil {
 	 * @param context
 	 * @param filename
 	 */
-	public SPUtil(Context context, String filename) {
+	public SPHelper(Context context, String filename) {
 		this(context, context.getSharedPreferences(filename,
 				Context.MODE_WORLD_WRITEABLE));
 	}
@@ -43,7 +43,7 @@ public class SPUtil {
 	 * @param context
 	 * @param sp
 	 */
-	public SPUtil(Context context, SharedPreferences sp) {
+	public SPHelper(Context context, SharedPreferences sp) {
 		this.context = context;
 		this.sp = sp;
 		edit = sp.edit();
@@ -54,13 +54,13 @@ public class SPUtil {
 		mApp = application;
 	}
 
-	static SPUtil mSpUtil = null;
-	public static SPUtil getInstance(){
-		if (mSpUtil == null) {
-			mSpUtil = new SPUtil(mApp);
+	static SPHelper mSpHelper = null;
+	public static SPHelper getInstance(){
+		if (mSpHelper == null) {
+			mSpHelper = new SPHelper(mApp);
 		}
 
-		return mSpUtil;
+		return mSpHelper;
 	}
 
 	// Set
